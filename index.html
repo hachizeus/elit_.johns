@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARCHI</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-nRkg4f9Qo0C5smAMKHaTUJEe7b3uiB07kFbj7NcPp8+jgRljDD1rIS2gwLR6+yjr6FIpVMd5o7EsJ7ldx1+PpQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <h1>HARCHI</h1>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <Text style="margin-left: -5px;margin-top: 90px; margin-bottom: -30px;" class="text" id="hello">Hello,I Am</Text>
+    <div class="container">
+        <div style="margin-top: -10px;" id="text1">
+            <p>Web Developer/ <br>Designer</p>
+        </div>
+        <div id="text2" class="hidden">
+            <p>App Developer</p>
+        </div>
+        <div id="text3"  class="hidden">
+            <p>Mobile Repairer</p>
+        </div>
+        <div id="text4" class="hidden">
+            <p>VICTOR</p>
+        </div>
+    </div>
+    <p>Hello.welcome.My name is Victor Gathecha,i am web and app Developer located in Nairobi, <br>Kenya and I work
+        internationally Online,</p>
+
+   <button style="margin-top: 365px;margin-left: -720px;width: 750px;height: 50px;" id="hire" class="bn29">Hire
+            Me</button>
+    <button id="downloadBtn" style="width: 750px;margin-top: 435px;margin-left: -750px;height: 50px;"
+        class="bn29">Download Cv</button>
+
+    <!-- Add the image -->
+    <img src="cv.png" id="downloadImage" style="display: none;">
+
+    <img style="border-radius: 50%; width: 420px; height: 420px;margin-left: 500px; margin-top: 100px;" src="nie.jpg" alt="">
+    <div class="card">
+        <P style="font-size: 60px;"> 1 </P>
+        <P style="font-size: 14px;margin-left: 170px;margin-top: 100px;"> awards </P>
+        <P style="font-size: 60px;"> 2</P>
+        <P style="font-size: 14px;margin-left: 170px;margin-top: 100px;">years</P>
+        <P style="font-size: 60px;">~100 </P>
+        <P style="font-size: 14px;margin-left: 150px;margin-top: 100px;"> users </P>
+        <P style="font-size: 60px;">100+ </P>
+        <P style="font-size: 14px;margin-left: 100px;margin-top: 100px;">projects </P>
+    </div>
+    <div class="card1">
+        <div class="card2">
+            <img style="height: 350px;width: 700px; margin-top: -90px;" src="lapi.jpg" alt="">
+        </div>
+        <div class="card3">
+            <h1 id="About" style="color: white;">About me</h1>
+            <p style="margin-left: 2px;margin-top: -5px;">Hey there, I'm Victor Gathecha, and I'm all about tech and
+                pushing
+                boundaries. <br> Currently, I'm studying Information Science at the University of Nairobi, but <br>
+                that's just the start of my journey. I wear many hats - I'm a web designer who <br> crafts visually
+                stunning and user-friendly websites, a skilled mobile repairer <br> ensuring your devices stay in top
+                shape, and an app developer constantly <br>innovating solutions to real-world problems. What drives me?
+                Ambition and <br> hard work. I thrive in challenging environments, always hungry for opportunities <br>
+                to learn and grow. When you work with me, you're not just getting a service provider <br> - you're
+                getting a dedicated partner committed to bringing your digital dreams to life. <br> Let's collaborate
+                and make some magic happen!</p>
+
+            <div class="dropdown-container">
+                <select id="dropdown1" class="dropdown">
+                    <option>Skills</option>
+                    <option value="option1">Web Developing</option>
+                    <option value="option2">App Developing</option>
+                    <option value="option3">Mobile Repair</option>
+                </select>
+                <select id="dropdown2" class="dropdown">
+                    <option>Education</option>
+                    <option value="option1">University Of Nairobi</option>
+                    <option value="option2">Inceptor</option>
+                </select>
+                <select id="dropdown3" class="dropdown">
+                    <option>Certification</option>
+                    <option value="option1">Frontend Development</option>
+                    <option value="option2">Backend Development</option>
+                </select>
+                <div class="blue-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card4">
+        <h2 id="Projects" style="color: white;margin-top: -400px;margin-bottom: -30px; font-size: 50px;margin-left: 800px;margin-right: -450px;">My Projects</h2>
+        <div class="video">
+            <video id="video1" style="margin-left: -610px;margin-right: 45px;margin-top: 120px;"  width="560" height="325" src="vida.mp4" loop muted allowfullscreen onclick="togglePlay('video1')"></video>
+          </div>
+        <div class="video">
+            <video id="video2" style="margin-right: 45px;margin-top: 120px;" width="560" height="325" src="arsha1 record.mp4" loop muted  allowfullscreen onclick="togglePlay('video2')"></video>
+          </div>
+        <div class="video">
+            <video id="video3" style="margin-top: 120px;" width="560" height="325" src="eeh.mp4" loop muted allowfullscreen onclick="togglePlay('video3')"></video>
+          </div>
+
+
+        <div class="video">
+            <video id="video4" style="margin-left: -50px;margin-right: 45px; margin-top: -60px;"  width="560" height="325" src="eeh.mp4"  loop muted allowfullscreen onclick="togglePlay('video4')"></video>
+          </div>
+        <div class="video">
+            <video id="video5" style="margin-right: 45px;margin-top: -60px;" width="560" height="325" src="arsha1 record.mp4"  loop muted allowfullscreen onclick="togglePlay('video5')"></video>
+          </div>
+        <div class="video">
+            <video id="video6" style="margin-top: -60px;margin-right: -45px;" width="560" height="325" src="vida.mp4" loop muted  allowfullscreen onclick="togglePlay('video6')"></video>
+          </div>
+    </div>
+    <div class="card5" style="background-color: #202020;">
+        <div id="Contact" class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="mailto:harchijohns01@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- Adding the contact-info div here -->
+        <div class="contact-info" style=" width: 300px;
+        margin-top: -100px;
+        margin-left: -700px;">
+            <p>Location: Nairobi, Kenya</p>
+            <p>Email Address: victorgathecha@gmail.com</p>
+            <p>Phone Number: +254759001048</p>
+            <p style="font-size: 30px;">Contact Info</p>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+<footer style="justify-content: center; align-items: center; display: flex;">
+    <p>&copy; 2024 HARCHI. All Rights Reserved. | Developed by <a href="https://www.example.com" target="_blank">Victor Gathecha</a></p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/example" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com/example" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:info@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+123456789"><i class="fas fa-phone"></i></a>
+    </div>
+</footer>
+
+    <!-- JavaScript for Download Button -->
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            // Assuming your CV file is named 'cv.pdf' and located in the same directory
+            var cvUrl = 'cv.png';
+            
+            // Create a link element
+            var link = document.createElement('a');
+            
+            // Set the href attribute of the link to the URL of the CV file
+            link.href = cvUrl;
+            
+            // Set the download attribute to specify the filename
+            link.download = 'cv.png'; // Change 'Victor_Gathecha_CV.pdf' to whatever you want the downloaded file to be named
+            
+            // Append the link to the document body
+            document.body.appendChild(link);
+            
+            // Programmatically click the link to start the download
+            link.click();
+            
+            // Remove the link from the document body
+            document.body.removeChild(link);
+        });
+    </script>
+    <script>
+        document.getElementById('hire').addEventListener('click', function() {
+            // Assuming your CV file is named 'cv.pdf' and located in the same directory
+            var cvUrl = 'cv.png';
+            
+            // Create a link element
+            var link = document.createElement('a');
+            
+            // Set the href attribute of the link to the URL of the CV file
+            link.href = cvUrl;
+            
+            // Set the download attribute to specify the filename
+            link.download = 'cv.png'; // Change 'Victor_Gathecha_CV.pdf' to whatever you want the downloaded file to be named
+            
+            // Append the link to the document body
+            document.body.appendChild(link);
+            
+            // Programmatically click the link to start the download
+            link.click();
+            
+            // Remove the link from the document body
+            document.body.removeChild(link);
+        });
+    </script>
+    <!-- Your existing JavaScript code here -->
+    <script>
+        function togglePlay(videoId) {
+            var video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+        // Function to toggle visibility of text elements
+        function toggleText(textIdToShow) {
+            // Hide all text elements
+            var allTextElements = document.querySelectorAll('.container > div');
+            allTextElements.forEach(function(element) {
+                element.classList.add('hidden');
+            });
+            // Show the text with the given ID
+            var textToShow = document.getElementById(textIdToShow);
+            if (textToShow) {
+                textToShow.classList.remove('hidden');
+            }
+        }
+
+        // Automatically switch between texts every 3 seconds
+        var textIndex = 1; // Initial index
+        setInterval(function() {
+            var textIdToShow = 'text' + textIndex;
+            toggleText(textIdToShow);
+            // Increment index or reset to 1 if it exceeds 4
+            textIndex = textIndex >= 4 ? 1 : textIndex + 1;
+        }, 3000); // Change text every 3 seconds
+    </script>
+</body>
+</html>
